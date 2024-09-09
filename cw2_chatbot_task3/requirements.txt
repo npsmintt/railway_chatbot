@@ -1,0 +1,15 @@
+flask
+flask_pymongo
+torch
+nltk~=3.8.1
+nltk.stem.porter
+experta~=1.9.4
+datetime
+selenium
+webdriver_manager
+frozendict
+spacy~=3.7.4
+mysql~=0.0.3
+mysql-connector-python~=8.4.0
+fuzzywuzzy~=0.18.0
+numpy~=1.26.4

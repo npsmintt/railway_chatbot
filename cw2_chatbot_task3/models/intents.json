@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "hi"
+      ],
+      "responses": [
+        "Hi! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye!",
+        "Thanks, bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["No problem!", "Any time!", "My pleasure!","No worries! I'm happy to help."]
+    },
+    {
+      "tag": "app",
+        "patterns": [
+          "tell me about this app",
+          "What kinds of technology used?",
+          "What can you do?",
+          "What's the app's functions?"
+        ],
+        "responses": [
+          "I can help you with any contingencies."
+        ]
+      },
+      {
+        "tag": "advice",
+        "patterns": [
+          "What information do you need to give advice for contingencies?",
+          "How can I handle blockage",
+          "Can you advise me about dealing with contingencies",
+          "What can I do when I have to deal with contingencies",
+          "contingencies",
+          "view contingency plan",
+          "There is a blockage",
+          "train problem",
+          "I want to know the contingency plan for tree down.",
+          "I would like to know the contingency plan for rail strike.",
+          "I want to see the contingency plan",
+          "weather",
+          "snow",
+          "flooding",
+          "can you help me with train strike?",
+          "high winds",
+          "high temperatures",
+          "I am experiencing high winds, what should I do?",
+          "can you give me the contingency plan?",
+          "can you tell me what to do?"
+        ],
+        "responses": ["Please tell me more information about the contingency"]
+      },
+      {
+        "tag": "delay",
+        "patterns": [
+          "I want to find out how much my train is delayed",
+          "Predict delay",
+          "When will I arrive?",
+          "My train has been delayed",
+          "Can you tell me what the delay is?"
+        ],
+        "responses": [
+          "My current feature does not support delay prediction yet, but you can ask my friend, 'trainbot' instead!"
+        ]
+      },
+      {
+        "tag": "book",
+        "patterns": [
+          "open ticket",
+          "open return",
+          "one way",
+          "round",
+          "I need to book a ticket",
+          "Can you help me with booking?",
+          "How do I book a ticket?",
+          "What information do you need to book a ticket?"
+        ],
+        "responses": [
+          "My current feature does not support ticket finder yet, but you can ask my friend, 'trainbot' instead!"
+        ]
+        },
+          {
+        "tag": "add",
+        "patterns": [
+          "I want to add a contingency plan",
+          "Please can I add a contingency plan for rail strikes?",
+          "I'd like to add a plan",
+          "add",
+          "add plan",
+          "How do I add a contingency plan?",
+          "add contingency plan",
+          "Can I add another contingency plan?",
+          "I would like to add a contingency plan for rail strike",
+          "I want to add a contingency plan for tree down",
+          "Can I add a contingency plan for rail strike?",
+          "add a contingency plan",
+          "I would like to add a contingency plan."
+        ],
+        "responses": [
+          "Of course! Let me add the contingency plan for you."
+        ]
+        }
+      ]
+    }

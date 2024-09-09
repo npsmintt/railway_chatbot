@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Header on Left, Data on Right</title>
+<style>
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+    tr {
+        display: flex;
+    }
+    th {
+        flex: 1;
+        text-align: right;
+        background-color: #f2f2f2;
+    }
+    td {
+        flex: 2;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <tbody>
+        <tr>
+            <th>Header 1</th>
+            <td>Data 1</td>
+        </tr>
+        <tr>
+            <th>Header 2</th>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <th>Header 3</th>
+            <td>Data 3</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
