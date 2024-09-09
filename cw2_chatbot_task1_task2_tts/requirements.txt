@@ -1,0 +1,10 @@
+flask
+flask_pymongo
+torch
+nltk
+nltk.stem.porter
+experta
+datetime
+selenium
+webdriver_manager
+frozendict

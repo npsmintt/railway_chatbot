@@ -1,0 +1,110 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Good morning"
+        ],
+        "responses": [
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "Goodbye!",
+          "Thanks, bye!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+        "responses": ["No problem!", "Any time!", "My pleasure!","No worries! I'm happy to help."]
+      },
+      {
+        "tag": "app",
+        "patterns": [
+          "tell me about this app",
+          "What kinds of technology used?",
+          "What can you do?",
+          "What's the app's functions?"
+        ],
+        "responses": [
+          "I can help you book train tickets, predict train delays, or help you with any contingencies."
+        ]
+      },
+      {
+        "tag": "delay",
+        "patterns": [
+          "I want to find out how much my train is delayed",
+          "Predict delay",
+          "When will I arrive?",
+          "My train has been delayed",
+          "Can you tell me what the delay is?"
+        ],
+        "responses": [
+          "Sure! Tell me some more information, and I will predict how much you have been delayed.",
+          "Can you give me more information?"
+        ]
+      },
+      {
+  "tag": "book",
+  "patterns": [
+    "open ticket",
+    "open return",
+    "one way",
+    "round",
+    "I need to book a ticket",
+    "Can you help me with booking?",
+    "How do I book a ticket?",
+    "What information do you need to book a ticket?"
+  ],
+  "responses": [
+    "Sure, I can help you with that. To book a ticket, I need to know the following information: departure station, destination station, travel date, return date (if applicable), and any specific preferences you have."
+  ]
+},
+            {
+        "tag": "accessibility",
+        "patterns": [
+          "Do you have any accessibility information?",
+          "Can I travel on a wheelchair?",
+          "Do I need to reserve a wheelchair space?"
+        ],
+        "responses": [
+          "Most trains will be able to accommodate wheelchairs and mobility scooters. There are a limited number of spaces available to wheelchair users on each train, so we recommend making a reservation if one is available. If a space is not available onboard because they are reserved by other customers, the Passenger Assist team will help you find the right options for your journey. <br><br>For further information on accessibility, please visit the <a href=`https://www.nationalrail.co.uk/on-the-train/accessible-train-travel-and-facilities/`>National Rail</a> website."
+        ]
+      },
+            {
+        "tag": "timetable",
+        "patterns": [
+          "Can I see the train's timetable?",
+          "timetable",
+          "I want to know the timetable for my train.",
+          "Show me the timetable."
+        ],
+        "responses": [
+          "I'm sorry, I don't have the timetable function yet. <br><br>However, you can view the timetables on the National Rail website. You can also view live departures and plan your journey. Please <a href=`https://www.nationalrail.co.uk/travel-information/timetables/`>click here</a> to view the most up-to-date timetables."
+        ]
+      },
+      {
+        "tag": "disruption",
+        "patterns": [
+          "Can you tell me information about service disruptions?",
+          "Can you give me an update on service disruptions?",
+          "service disruption",
+          "Are there any service disruptions affecting my journey?"
+        ],
+        "responses": [
+          "Sorry, I don't have a function for service disruption yet. <br><br>However, you can see live updates of all train status and service disruption information on the National Rail Website. Please <a href=`https://www.nationalrail.co.uk/status-and-disruptions/`>click here</a> to view any service disruption information."
+        ]
+      }
+    ]
+  }
